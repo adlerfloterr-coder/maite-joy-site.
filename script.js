@@ -1,5 +1,5 @@
 let slider = document.querySelector('.slider img');
-let imagens = ['images/banner.jpg'];
+let imagens = ['banner.jpg'];
 let index = 0;
 setInterval(() => {
     index = (index + 1) % imagens.length;
