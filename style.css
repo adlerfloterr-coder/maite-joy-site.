@@ -4,7 +4,7 @@ header .logo { font-size: 32px; font-weight: 700; color: #d63384; margin-bottom:
 nav a { margin: 0 15px; text-decoration: none; color: #555; font-weight: 500; transition: color 0.3s; }
 nav a:hover { color: #d63384; }
 .banner { margin-top: 120px; text-align: center; }
-.slider img { width: 800px; height: 400px; object-fit: cover; border-radius: 10px; display: block; margin: 0 auto; }
+.slider img { width: 800px; height: 400px; object-fit: contain; background-color: #fff8f0; border-radius: 10px; display: block; margin: 0 auto; }
 section { padding: 40px 20px; text-align: center; }
 .galeria { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 20px; }
 .card { background: #fff; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); padding: 10px; width: 200px; transition: transform 0.3s; }
@@ -22,4 +22,3 @@ footer { text-align: center; background-color: #f8d7da; padding: 20px; margin-to
 .float-btn.facebook { background: #3b5998; }
 .fade-in { opacity: 0; transform: translateY(20px); transition: opacity 1s ease-out, transform 1s ease-out; }
 .fade-in.visible { opacity: 1; transform: translateY(0); }
-
